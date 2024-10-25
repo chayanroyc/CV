@@ -1,0 +1,509 @@
+\documentclass[margin,line]{resume}
+
+\usepackage{hyperref}
+\usepackage{enumitem}
+%\usepackage{pifont}
+%\usepackage{garamondx}
+\usepackage[T1]{fontenc}
+%\usepackage[urw-garamond]{mathdesign}
+\usepackage{multicol}
+\setlength{\columnsep}{-0.5mm}
+\hypersetup{colorlinks=true, urlcolor=blue}
+\usepackage{fancyhdr}
+\thispagestyle{empty}
+
+\usepackage{textpos}
+
+\usepackage{microtype}
+%%\usepackage{mathpazo}
+%%\usepackage{palatino}
+%\usepackage{gentium}
+%\usepackage{libertine-type1}
+%\usepackage{tgpagella}
+%\usepackage[bitstream-charter]{mathdesign}
+\usepackage{kpfonts}
+
+\usepackage[dvipsnames]{xcolor}
+\colorlet{sep}{MidnightBlue}
+\usepackage{tikz}
+\usepackage{fontawesome}
+
+\usepackage[skip=2pt plus1pt, indent=0pt]{parskip}
+
+%\usepackage{svg}
+%\newcommand{\orcid}[1]{\href{https://orcid.org/#1}{\includesvg[width=10pt]{orcid}}}
+
+\usepackage{tikz,xcolor,hyperref}
+
+% Make Orcid icon
+\definecolor{lime}{HTML}{A6CE39}
+\DeclareRobustCommand{\orcidicon}{%
+	\begin{tikzpicture}
+		\draw[lime, fill=lime] (0,0) 
+		circle [radius=0.16] 
+		node[white] {{\fontfamily{qag}\selectfont \tiny ID}};
+		\draw[white, fill=white] (-0.0625,0.095) 
+		circle [radius=0.007];
+	\end{tikzpicture}
+	\hspace{-0.5mm}
+}
+
+% Make commands for any number of authors here.
+%\newcommand{\orcidJonDoe}{\href{https://orcid.org/0000-0000-0000-0000}{\orcidicon}}
+\newcommand{\orcidchayan}{\href{https://orcid.org/0000-0001-5008-5522}{\orcidicon}}
+
+%\renewcommand{\familydefault}{\sfdefault}
+%\renewcommand{\sfdefault}{iwona}
+%\renewcommand{\sfdefault}{garamond}
+
+%\definecolor{frontColor}{rgb}{0.22,0.45,0.70}% light blue
+%\definecolor{backColor}{RGB}{200,200,200}% grey
+%\newcommand{\grade}[1]{%
+	%	\begin{tikzpicture}
+		%	\clip (1em-.4em,-.35em) rectangle (5em +.5em ,1em);
+		%	\foreach \x in {1,2,...,5}{
+			%		\path[{fill=backColor}] (\x em,0) circle (.35em);
+			%	}
+		%	\begin{scope}
+			%	\clip (1em-.4em,-.35em) rectangle (#1em +.5em ,1em);
+			%	\foreach \x in {1,2,...,5}{
+				%		\path[{fill=frontColor}] (\x em,0) circle (.35em);
+				%	}
+			%	\end{scope}
+		%	
+		%	\end{tikzpicture}%
+	%}
+
+%) and \newsectionwidth{0.2in}
+
+\begin{document}
+	
+	\name{\LARGE{{Chayan Roychoudhury}}}
+	
+	\begin{resume}
+		
+		%\begin{textblock*}{200mm}(.1\textwidth,-1.5cm)
+		%\emph{Resume | Chayan Roychoudhury | Ph.D in Climate \& Space Sciences \& Engineering | U-M ID 64411742}
+		%\end{textblock*}
+		
+		%__________________________________________________________________________________________________________________
+		% Contact Information
+		\vspace*{-1mm}
+		\section{\mysidestyle \textbf{\textcolor{sep}{Contact\\Information}}}
+		
+		%	Senior Post-Graduate Student					\hfill 373,N.N Road. Kolkata 700028\\
+		%	Dept. of Atmospheric Sciences 		\hfill Phone No. : +91 85849 50260\\
+		%	University of Calcutta					\hfill E-Mail : \href{mailto:chayan.royc24@gmail.com}{chayan.royc24@gmail.com}\\
+		%	Kolkata 700019, West Bengal, \textsc{India} 	\hfill %\href{http://cse.iitkgp.ac.in/~naveens}{http://cse.iitkgp.ac.in/$\sim$naveens}
+		{	
+			 \hspace*{1mm} \href{https://sites.arizona.edu/afarellano/}{\textbf{M}odeling and \textbf{A}nalysis of \textbf{A}tmospheric \textbf{C}omposition Laboratory} \hfill     
+			\hspace{1mm}
+			\href{mailto:croychoudhury@arizona.edu}{\faEnvelopeO} \hspace*{1mm} 
+			\href{https://chayanroyc.faculty.bio}{\faInfo} \hspace*{1mm}
+			 \href{https://www.linkedin.com/in/chayan-roychoudhury-5a274b80/}{\faLinkedin}
+			\hspace*{1mm}
+			\href{https://scholar.google.com/citations?user=7vi4IIkAAAAJ&hl=en&authuser=2}{\faGoogle} \hspace{1mm}\href{https://github.com/chayanroyc}{\faGithub} \hspace*{1mm} \orcidchayan
+				
+			%\\
+			%\faPhone \hspace{1mm} +91 85849 50260 
+			%\faPhone \hspace*{1mm} +1 520 269-1709 
+			%\faMapMarker Tucson, AZ, USA
+			
+		}
+		
+		\vspace*{-3mm}
+		
+		%__________________________________________________________________________________________________________________
+		% Research Interests
+		%\section{\mysidestyle \textcolor{sep}{Research\\Interests}}
+		
+		%Air Pollution and Bio-Meteorology, Tropical \& Severe Weather Meteorology
+		%Air Pollution, Biosphere-Atmosphere Interactions, Severe Weather Meteorology
+		%Atmospheric Chemistry, Severe Weather Meteorology
+		%Tropical \& Severe Weather Meteorology
+		
+		%__________________________________________________________________________________________________________________
+		% Education
+		\section{\mysidestyle \textbf{\textcolor{sep}{Education}}}
+		
+		\emph{Doctoral Studies - PhD} \hfill January 2021 - \textit{Present}\\
+		\textbf{The University of Arizona, Department of Hydrology and Atmospheric Sciences} \\
+		\textit{Supervisor} : Dr. Avelino F. Arellano Jr.
+		
+		\emph{Post-Graduation - MSc} \hfill  August 2017 - July 2019\\
+		\textbf{University of Calcutta, Department of Atmospheric Science} \\
+		\footnotesize
+		\normalsize
+		Thesis: \emph{Simulation of Hygroscopic Factors on Polar Aerosols over East Antarctica} \\
+		\textit{Supervisor} : Dr. Sanat Kumar Das, Bose Institute
+		
+		\emph{Graduation - BSc}\\
+		\textbf{University of Calcutta, Department of Physics}	\hfill August 2014 - June - 2017\\
+%\textbf{Department of Physics}  \hfill Percentage : 60.625\% \\
+		First Class Honours 
+%		with Minors in Mathematics and Chemistry
+		
+		\vspace*{-3mm}
+		
+		%__________________________________________________________________________________________________________________
+		% Work Experience
+		\section{\mysidestyle \textbf{\textcolor{sep}{Work \\Experience}}}
+		
+		\textbf{Graduate Research Assistant} \hfill January 2021 - Present  \\
+		\textbf{Graduate Teaching Assistant} \hfill January 2023 - May 2024  \\
+		\hspace*{2mm} \textit{ATMO 430 - Computational Methods in Atmospheric Sciences} (Spring 2023) \\
+		\hspace*{2mm}  \textit{ATMO 569 - Air Pollution I : Gases} (Fall Spring 2023) \\
+		\hspace*{2mm}  \textit{ATMO 545 - Introduction to Data Assimilation} (Spring 2024) \\
+		Department of Hydrology and Atmospheric Sciences, The University of Arizona \\
+		\textit{ Supervisor} : Dr. Avelino F. Arellano Jr.
+		
+		\textbf{Guest Research Worker} \hfill August 2019 - July 2020 \\
+		Bose Institute, Environmental Sciences Section \\
+		\textit{Supervisor} : Dr. Sanat Kumar Das 
+		%\textbf{Dept. of Computer Science \& Engg, IIT Kharagpur} \hfill Teaching Assistant\\
+		%Advisor : Prof. Arobinda Gupta and  Prof. Indranil Sengupta \hfill (Autumn 2011)\\
+		%\emph{Computer Networks Lab}
+		
+		\vspace*{-3mm}    
+		%\textbf{Max Planck Institute for Software Sysytems, Saarbruecken, Germany} \hfill Student Intern\\
+		%Advisor : Dr. Krishna P. Gummadi \hfill (Summer 2011)\\
+		%\emph{Discovering topic authorities in Twitter Social Network}
+		
+		%\vspace{-2mm}
+		%\textbf{University of Toronto, Ontario, Canada} \hfill Student Intern\\
+		%Advisor : Dr. Yashar Ganjali \hfill (Summer 2010)\\
+		%\emph{Spam Detection in IP-Telephony Networks}
+		
+		%\vspace{-2mm}
+		%\textbf{Applied Mathematics \& Scientific Computing, Cranfield University, UK} \hfill Student Intern\\
+		%Advisor : Dr. Shaun Forth \hfill (Summer 2009)\\
+		%\emph{Efficient Implementation of Reverse-Mode Automatic Differentiation}
+		
+		
+		%__________________________________________________________________________________________________________________
+		% Publications
+		\section{\mysidestyle \textbf{\textcolor{sep}{Research Experience}}}
+		
+		%	\emph{Journal Publications}
+		%	
+		%	\begin{enumerate}[topsep=1pt, partopsep=1pt, itemsep=3pt, parsep=1pt, leftmargin=15pt]
+			%
+			%	\item Gautam Kumar, Naveen Kr. Sharma, and Partha Bhowmick,\\
+			%	\textbf{Wheel-throwing in Digital Space Using Number-theoretic Approach}\\
+			%	The International Journal of Arts and Technology, 2010.
+			%	
+			%	\end{enumerate}
+		
+		%\vspace{-2mm}
+		
+		%	\emph{Projects} \vspace{-2mm}
+		%\begin{enumerate}
+		%\item \textbf{Observation of virga over East Antarctica : A Signature of Global Warming} \hfill August 2019 - Present\\
+		%	Studied the vertical structure of Antarctic precipitation observed during the \\ 36$^{th}$ Indian Scientific Expedition to Antarctica, 2017 \\
+		%	Supervisor : \emph{ Dr. Sanat Kumar Das} , Bose InstItute
+		%
+		%\item 
+		%\end{enumerate}
+		
+		%\vspace{-2mm}
+		
+		\textbf{\emph{\textcolor{sep}{Publications}}}
+		\begin{enumerate}[topsep=1pt, partopsep=1pt, itemsep=0.5pt, parsep=0.1pt, leftmargin=15pt,label=\arabic*.]
+			
+			\item \textit{C Roychoudhury}, C He, R Kumar, JM McKinnon, and AF Arellano. \textbf{On the relevance of aerosols to snow cover variability over High Mountain Asia.} 2022.  \href{https://doi.org/10.1029/2022GL099317}{\textit{Geophysical Research Letters, 49}}.
+			
+			\item R Kumar, C He, \textit{C Roychoudhury}, W Cheng, N Mizukami, and AF Arellano. 
+			 \textbf{High Mountain Asia 12 km Modeled Estimates of Aerosol Transport, Chemistry, and Deposition Reanalysis, 2003-2019. (HMA2\_MATCHA, Version 1)}. 2024. \textit{[Data Set]}. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. \url{https://doi.org/10.5067/CG4OT8DJX2Z7}.
+			
+			\item K Mottungan, \textit{C Roychoudhury}, V Brocchi, B Gaubert, W Tang, MA Mirrezaei, JM McKinnon, Y Guo, DWT Griffith, DG Feist, I Morino, MK Sha, MK Dubey, M De Mazière, NM Deutscher, PO Wennberg, R Sussmann, R Kivi, TY Goo, VA Velazco, W Wang, and AF Arellano Jr. \textbf{Local and regional enhancements of CH4, CO, and CO2 inferred from TCCON column measurements}. 2024.  \href{https://doi.org/10.5194/amt-17-5861-2024}{\textit{Atmospheric Measurement Techniques, 17}}, 5861–5885.
+			
+			\item M Greenslade, Y Guo, G Betito, MA Mirrezaei, C Roychoudhury, AF Arellano, A Sorooshian. \textbf{On ozone's weekly cycle for different seasons in Arizona.} 2024. \href{https://doi.org/10.5194/amt-17-5861-2024}{\textit{Atmospheric Measurement Techniques, 17}}, 5861–5885.
+			
+			\item MA Mirrezaei, AF Arellano, Y Guo, \textit{C Roychoudhury}, A Sorooshian. \textbf{Ozone Production over Arid Regions: Insights into Meteorological and
+				Chemical Drivers}. 2024.  \href{https://10.1088/2515-7620/ad484c}{\textit{Environmental Research Communications}}, 6, 051009.
+			
+				\item Y Guo, \textit{C Roychoudhury}, MA Mirrezaei, R Kumar, A Sorooshian, and AF Arellano: \textbf{Investigating Ground-Level Ozone Pollution in Semi-Arid and Arid Regions of Arizona Using WRF-Chem v4.4 Modeling}. 2024.
+			\href{ https://doi.org/10.5194/gmd-17-4331-2024}{\textit{Geoscientific Model Development}},  17, 4331–4353.
+			
+			\item A Sorooshian, AF Arellano Jr, M Fraser, P Herckes, G Betito, E Betterton, R Braun, Y Guo, MA Mirrezaei, \textit{C Roychoudhury}. \textbf{Ozone in the Desert Southwest of the United States: A Synthesis of Past Work and Steps Ahead.} 2024.  \href{https://doi.org/10.1021/acsestair.3c00033}{\textit{ACS ES\&T Air, 1(2), 62-79}}.
+			
+			\item D Das, S Chiao, \textit{C Roychoudhury}, F Khan, S Chaudhuri, S Mukherjee. \textbf{Tropical Cyclone Energy Variability in North Indian Ocean: Insights from ENSO.} 2023.
+			\href{https://www.mdpi.com/2225-1154/11/12/232}{\textit{Climate, 11, 232}}.
+			
+		\end{enumerate}
+	
+		\textbf{\emph{\textcolor{sep}{In progress}}}
+			\begin{enumerate}[topsep=1pt, partopsep=1pt, itemsep=0.5pt, parsep=0.1pt, leftmargin=15pt,label=\arabic*.]
+				
+			\item C Roychoudhury, W Cheng, N Mizukami, C He, AF Arellano and R Kumar. \textbf{MATCHA, Model for Atmospheric Transport and Chemistry in Asia, a novel regional climate-chemical reanalysis. Part 1: System description and initial evaluation}. (\textit{In preparation for Earth System Science Data}).
+	
+			\item \textit{C Roychoudhury}, C He, R Kumar, AF Arellano Jr. \textbf{Diagnosing Aerosol-Meteorological Interactions on Snow within the Earth System: A Proof-of-Concept Study over High Mountain Asia}.  \emph{\href{https://doi.org/10.5194/egusphere-2024-2298}{Earth System Dynamics}}. \textit{In review}.
+			
+			\item H Bai, \textit{C Roychoudhury}, C Strong. \textbf{Seasonal shift and variability of summertime North American Dipole on large ensemble climate simulations.} (\emph{In preparation}).
+			
+			\item   SK Das, \textit{C Roychoudhury}, SK Ghosh, S Raha, and U Das.
+			\textbf{ Deterioration of background air quality by transported winter haze: Alarming high health risk for urban people over Indo-Gangetic Plain}. (\emph{In preparation}).
+			
+			%Aerosol and Air Quality Research, 2019 (\emph{Under Review})
+			\item SK Das, \textit{C Roychoudhury}, and A Taori.
+			\textbf{Virga observed over East Antarctica: An alarming indication of global warming}. (\emph{In preparation}).
+			
+			
+		\end{enumerate}
+		
+	%\pagebreak
+	
+	\textbf{\emph{\textcolor{sep}{Conference Presentations}}}
+		\begin{enumerate}[topsep=1pt, partopsep=1pt, itemsep=0.5pt, parsep=0.1pt, leftmargin=15pt,label=\arabic*.]
+			
+			\item \textit{C Roychoudhury}, MA Mirrezaei, Y Guo, AR Arellano, G Betito, A Sorooshian, AF Arellano.  \textbf{Leveraging atmospheric chemistry observations in Arizona: Insights into the regional transport of ozone and aerosols.} Poster presented at AERONET Science and Application Exchange, College Park, MD, September 17-19, 2024.
+			
+			\item \textit{C Roychoudhury}, AF Arellano, W Cheng, N Mizukami, J McKinnon, C He, R Kumar. \textbf{Is traditional Bayesian inversion sufficient to constrain black carbon abundance in High Mountain Asia?} Poster C84 presented at the iCACGP-IGAC 2024 Conference in Kuala Lumpur, Malaysia, 9th-13th September, 2024.
+			
+			\item \textit{C Roychoudhury}, W Cheng, C He, R Kumar, JM McKinnon, AF Arellano. \textbf{How uncertain are BC emissions in High Mountain Asia? An inverse modeling approach.} Poster GC21K-1070 at AGU Fall Meeting 2023, San Francisco, CA. 
+			
+			\item \textit{C Roychoudhury}, W Cheng, C He, R Kumar, AF Arellano. \textbf{MATCHA, Model for Atmospheric Transport and Chemistry in Asia: A novel regional climate-chemical reanalysis.} Poster C51C-0957 at AGU Fall Meeting 2023, San Francisco, CA.
+			
+			\item Y Guo, AF Arellano, \textit{C Roychoudhury}, A Sorooshian, R Kumar, G Pfister (2023). \textbf{Harnessing our Air Quality Modeling \& Observational Capabilities to Establish Key Factors Influencing Ozone Levels in Arizona}. Poster at 2023 MAC-MAQ Conference, UC Davis, CA.
+			
+			\item MA Mirrezaei, Y Guo, \textit{C Roychoudhury}, AF Arellano, A Sorooshian, W Tang, L Emmons (2023). \textbf{Investigating surface ozone sensitivity to HCHO/$\mathbf{NO_2}$ ratios over Arizona using the Multi-Scale Infrastructure for Chemistry and Aerosols (MUSICA) model}. Poster at 2023 MAC-MAQ Conference, UC Davis, CA.
+			
+			\item D Das, S Chiao, ET Swenson, GG Persad, \textit{C Roychoudhury} (2023). \textbf{Past, Present and Future Humid Heat Extremes over the East Coast of the United States} (2023). Poster at 2023 103rd AMS Annual Meeting, Denver, CO. 
+			
+			\item \textit{C Roychoudhury}, C He, R Kumar, JM McKinnon and AF Arellano (2022).
+			\textbf{Tracing the sources of black carbon deposition over the glaciers in High Mountain Asia: A tagged-tracer approach using WRF-Chem}. Poster at 2022 AGU Fall Meeting, Chicago, IL.
+			
+			\item JM McKinnon, AF Arellano, \textit{C Roychoudhury} (2022). \textbf{Spatio-temporal Pattern Analysis of Trace Gases and Aerosol Abundance Using Varimax Rotation and Locally Linear Embeddings.} Poster at 2022 AGU Fall Meeting, Chicago, IL.
+			
+			\item \textit{C Roychoudhury}, C He, R Kumar, JM McKinnon and AF Arellano (2022). 
+			\textbf{Source attribution of aerosol impacts to snow cover over High Mountain Asia.} Poster at 2022 International Global Atmospheric Chemistry (IGAC) Project Science Conference, Manchester, UK.
+			
+			\item \textit{C Roychoudhury}, C He, R Kumar, MK Shrivastava, JM McKinnon , AF Arellano (2022).
+			\textbf{Do aerosols really matter over High Mountain Asia?}.
+			Oral Presentation at University of Arizona's annual El Día Del Agua Y La Atmósfera, Tucson, AZ.
+			
+			\item \textit{C Roychoudhury}, C He, R Kumar, and AF Arellano (2021).
+			\textbf{Investigating the relationship of meteorology and atmospheric composition to snow cover: A comparative study over High-Mountain Asia and Andes}.
+			Lightning Talk and Poster at 2021 International Global Atmospheric Chemistry (IGAC) Project Science Conference, (virtual).
+			
+			\item \textit{C Roychoudhury}, C He, R Kumar and AF Arellano (2021).
+		\textbf{Exploring the association of meteorology and atmospheric composition to snow cover changes: A case study over High-Mountain Asia and Central Andes}. 
+	Lightning Talk at 2021 MAC-MAQ Conference, (virtual).
+			
+			\item \textit{C Roychoudhury}, C He, R Kumar, MK Shrivastava, JM McKinnon , AF Arellano (2021). 
+			\textbf{Model simulations and satellite data analysis of aerosol impacts to snow cover over High Mountain Asia}. 
+			Oral Talk at 2021 Fall Meeting, AGU, New Orleans, LA.
+			
+			\item JM McKinnon, \textit{C Roychoudhury}, B Gaubert, RR Buchholz, AF Arellano (2021).
+			\textbf{Spatio-temporal Pattern Analysis of Trace Gases and Aerosol Abundance Using PCA, SOMs, and Convolution Auto-encoders}.
+			Oral Talk at 2021 AGU Fall Meeting, and 2022 AMS Annual Meeting.
+			
+			\item C He, R Kumar, MK Shrivastava, \textit{C Roychoudhury}, AF Arellano (2021).
+			\textbf{Brown carbon climatic impacts over High Mountain Asia: WRF-Chem model implementation and application}.
+			Presented at 2021 AGU Fall Meeting (virtual).
+			
+			\item D Das, D Strauss, \textit{C Roychoudhury}, E Swenson, S Paul, G Fang, P Sinha, A Roy Chowdhury (2020).
+			\textbf{Oceanic and Atmospheric factors contributing towards the rapid intensification of tropical cyclones in a warming climate: A diagnostic study of Super Cyclone AMPHAN over the Bay of Bengal}.
+			Poster at 2020 AGU Fall Meeting (virtual).
+			
+			\item D Das, \textit{C Roychoudhury}, S Paul, F Khan, S Chaudhuri (2020). \textbf{Impact of ENSO on Tropical Cyclone Season over North Indian Ocean}. Oral Presentation at the International Virtual Conference on Earth's Changing Climate: Past, Present \& Future, Society of Earth Scientists (virtual).
+				
+			\item F Khan, D Das, \textit{C Roychoudhury}, S Chaudhuri (2018).		\textbf{Role of geo-potential height in estimating the variablity in Indian Summer Monsoon Rainfall: A comparative study with NCEP-NCAR Reanalysis and CFSR}. Poster Presentation at  %on \emph{Understanding Weather and  Climate Variability : Research for Society} 
+			2018 TROPMET National Symposium, Indian Meteorological Society.
+			
+				\item \textit{C Roychoudhury}, R Ray (2018).
+			\textbf{Impact of climate change on butterfly population over a metropolis of India}.
+			%			\begin{enumerate}[topsep=1pt, partopsep=1pt, itemsep=3pt, parsep=1pt, leftmargin=15pt,label=\roman{*})]
+				%				\vspace{-4mm}
+				%				\item \emph{Poster Presentation} at 2$^{nd}$ International Conference on Biotechnology and Biological Sciences (BIOSPECTRUM 2018) at University of Engineering \& Management, Kolkata. 	
+				Oral Presentation at %on \emph{Understanding Weather and  Climate Variability : Research for Society} 
+				2018 TROPMET National Symposium, Indian Meteorological Society and BIOSPECTRUM-2018, India.
+				%\end{enumerate} 
+			
+			%\item Chayan Roychoudhury, Rittika Ray,\\
+			%\textbf{Impact of Air Pollution on Butterfly Population over a Metropolis of India},\\
+			%2nd International Conference on Biotechnology and Biological Sciences (BIOSPECTRUM 2018) \\
+			%Organised by University of Engineering \& Management, Kolkata
+			
+			
+		\end{enumerate}
+		
+		
+		%__________________________________________________________________________________________________________________
+		% Research Projects
+		%    \section{\mysidestyle Research \\Projects}
+		%    
+		%	\textbf{Characterizing Large Scale Online Social Networks -- Twitter} \hfill (May 2011 - Present)\\
+		%	Advisor: \emph{Dr. Krishna Gummadi}, Max Planck Institute SWS
+		%	\begin{itemize}[topsep=2pt, partopsep=1pt, itemsep=2pt, parsep=1pt, leftmargin=15pt]
+			%	\item Crawling and analyzing various aspects of Twitter Social Network.
+			%	\item Developed a ``Who To Follow'' service to recommend topical authorities in Twitter.
+			%	\end{itemize}
+		%
+		%\vspace{-1mm}    
+		%	\textbf{Improving QoS in BitTorrent like p2p-based Video-on-Demand Systems} \hfill (July 2010 - Present)\\
+		%	Advisor: \emph{Dr. Niloy Ganguly}, IIT Kharagpur
+		%	\begin{itemize}[topsep=2pt, partopsep=1pt, itemsep=2pt, parsep=1pt, leftmargin=15pt]
+			%	\item Studied the dynamic evolution of BitTorrent networks and the impact of bandwidth heterogeneity.
+			%	\item Optimized BitTorrent networks and protocols to support Video-on-Demand systems.
+			%	\end{itemize}
+		%
+		%\vspace{-1mm}
+		%	\textbf{SPAM Detection in IP-Telephony Networks} \hfill (May 2010 - July 2010)\\
+		%	Advisor: \emph{Dr. Yashar Ganjali}, University of Toronto, Canada
+		%	\begin{itemize}[topsep=2pt, partopsep=1pt, itemsep=2pt, parsep=1pt, leftmargin=15pt]
+			%	\item Developed an application on Android Platform to handle phone call related activities.
+			%	\item Designed and implemented a server system which analyses call feedbacks and provides SPAM ratings.
+			%	\end{itemize}
+		%
+		%\vspace{-1mm}
+		%	\textbf{Structure and Evolution of Indian Railway Network} \hfill (July 2009 - May 2010)\\
+		%	Advisor: \emph{Dr. Niloy Ganguly}, IIT Kharagpur
+		%	\begin{itemize}[topsep=2pt, partopsep=1pt, itemsep=2pt, parsep=1pt, leftmargin=15pt]
+			%	\item Analysed the structure and evolution of Indian railways from 1991 to 2009.
+			%	\item Dependence of stations in the Railway Network using improved Resource Allocation techniques.
+			%	\end{itemize}
+		%
+		%\vspace{-1mm}
+		%	\textbf{Efficient Implementation of Reverse-Mode Automatic Differentiation} \hfill (May 2009 - July 2009)\\
+		%	Advisor: \emph{Dr. Shaun Forth}, Cranfield University, UK
+		%	\begin{itemize}[topsep=2pt, partopsep=1pt, itemsep=2pt, parsep=1pt, leftmargin=15pt]
+			%	\item Developed libraries for Standard Reverse-Mode Automatic Differentiation in MATLAB.
+			%	\item Implemented a \emph{Wrapper} class and overloaded Arithmetic-Logical \& Matrix manipulation functions.
+			%	\end{itemize}
+		
+		%\clearpage
+		
+		\vspace{-0.4cm}
+		%__________________________________________________________________________________________________________________
+		% Technical Skills
+		\section{\mysidestyle \textbf{\textcolor{sep}{Technical \\Skills}}}
+		
+		%\emph{Programming Languages and Software Packages}\\
+		\textbf{\emph{\textcolor{sep}{Programming}}} \hspace{1mm} Python, GrADS, IDL, MATLAB, QGIS/ArcGIS,  \LaTeX, Linux, HPC.\\
+		\textbf{\emph{\textcolor{sep}{Modeling}}} \hspace{8mm} WRF-Chem, CESM/CESM-SCAM  
+		
+		%\vspace{-2mm}
+		%	\emph{Softwares Packages}\\
+		%	MATLAB, Eclipse, NetBeans, \LaTeX, Xilinx (FPGA Hardware Designing), Android SDK
+		
+		%__________________________________________________________________________________________________________________
+		\vspace*{-3mm}
+				
+		% Honours & Awards
+		\section{\mysidestyle \textbf{\textcolor{sep}{Honours \\\& Awards}}}
+		\begin{enumerate}[topsep=0.1pt, partopsep=1pt, itemsep=0.1pt, parsep=0.1pt, leftmargin=12pt,label=\roman{*})]
+			\item Recipient of John \& Margaret Harshbarger Scholarship, University of Arizona (2024).
+			\item Recipient of Sol Resnick Scholarship, University of Arizona (2023).
+			\item Recipient of Galileo Circle Scholarship, University of Arizona (2022).
+			\item Rank 1 in MSc in Atmospheric Science (2019) and eligible for INSPIRE-Fellowship under DST, Government of India.
+			%\item First Position for the poster on \emph{Impact of %Climate Change on Butterfly Population over a Metropolis of %India} presented at BIOSPECTRUM - 2018 in Environmental %Biotechnology and Bioremediation (2018).\\
+			
+		\end{enumerate} 
+	%________
+		\vspace*{-3mm}
+	
+		\section{\mysidestyle \textbf{\textcolor{sep}{Journal Reviewer}}}
+		\begin{enumerate}[topsep=0.1pt, partopsep=1pt, itemsep=0.1pt, parsep=0.1pt, leftmargin=12pt,label=\roman{*})]
+			\item Geophysical Research Letters (Wiley).
+			\item Theoretical and Applied Climatology (Springer).
+			%\item First Position for the poster on \emph{Impact of %Climate Change on Butterfly Population over a Metropolis of %India} presented at BIOSPECTRUM - 2018 in Environmental %Biotechnology and Bioremediation (2018).\\
+			
+		\end{enumerate} 
+		
+		%	Max Planck Institute for Software Systems - Summer Internship Fellow, 2011								\vspace{1mm}\\%
+		%	Winners of \textbf{Hack-U 2011} organised by \textbf{Yahoo!} at IIT Kharagpur							\vspace{1mm}\\%
+		%	MITACS Globalink 2010 Scholar at University of Toronto, Canada											\vspace{1mm}\\%
+		%	Winners of \textbf{Anadigix} - \emph{Analog and Digital Circuit Design Contest} in Kshitij, 2010		\vspace{1mm}\\%
+		%	2nd Runner-up at \textbf{Overnite}, \emph{ACM/ICPC Multi Provincial Programming Contest}, 2010			\vspace{1mm}\\%
+		%	Certificate of Merit in National Physics \& Chemistry Olympiad (\textbf{top 1\%} of all candidates)		\vspace{1mm}\\%
+		%	Mamraj Agarwal National Award by Hon'ble Governer for being among \textbf{top 10} in the State, AISSCE 2007\vspace{1mm}\\%
+		%	Certificate of Merit by CBSE in `Science and Technology' for being placed among top 0.1\% in AISSE 2005	\vspace{1mm}\\%
+		%	\textbf{National Talent Search Examination (NTSE) 2005 Scholar}											\vspace{1mm}\\%
+		%	\textbf{All India Second Runner-Up} (Ranked 3rd in Country) in Green Olympiad 2004						\vspace{1mm}\\%
+		%	\textbf{All India Rank 11} in National Cyber Olympiad 2005
+		
+		%\thispagestyle{fancy}
+		%\rhead{Chayan Roychoudhury}
+		%\rfoot{\emph{Chayan Roychoudhury}}
+		%__________________________________________________________________________________________________________________
+		%\vspace{-10mm}    % Extra Academic Activities
+		
+		%\section{\mysidestyle \textcolor{sep}{Extra \\Curricular \\Activities}} 
+		
+		%Intermediate Course in Japanese. Passed JLPT N5 and N4.\\ %\vspace{1mm}\\
+		%\begin{enumerate}[topsep=1pt, partopsep=1pt, itemsep=3pt, parsep=1pt, leftmargin=12pt,label=\roman{*})]
+			
+			%\item Field campaign in Darjeeling (Eastern Himalayas) and Sundarbans (Coastal West Bengal) with Bose Institute for atmospheric measurements (January 2020).
+			%\item Field campaign in estuaries of River Ganges (north-west Bay of Bengal) with a national oceanographic team for atmospheric measurements (December 2019).
+			%\item Private Tutor in mathematics and physics to high school students (Since 2017-2020). 
+			%\item Academic Content Writer for Trimplin Group (April 2019 - August 2019). \\
+		%\end{enumerate}
+		
+		%    Head, Problems Team, Bitwise \& Enigma 2011, Annual Online Programming Contest, IIT Kharagpur			\vspace{1mm}\\%
+		%	\textbf{Department \& Class Representative}, Undergraduate Academic Advisory Committee					\vspace{1mm}\\%
+		%	Member of National Social Service (NSS), IIT Kharagpur (2007-09), \textbf{WebTeam Head of NSS Team Vivek}\vspace{1mm}\\%
+		%	Worked as an Instructor in the Summer School on \textbf{Introduction to Computers and C Programming}	\vspace{1mm}\\%
+		%	\textbf{Best Student of the Year 2006-07} at DAV Model School, Kharagpur.								\vspace{1mm}\\%
+		%	Student Editor for School Magazine `Dishari' at DAV Model School, Kharagpur (2004-07).
+		%	
+		%__________________________________________________________________________________________________________________
+		% Languages Known
+		%\section{\mysidestyle Languages \\ Known} 
+		
+		%Proficient in English, Hindi and Bengali \\
+		%Intermediate in Japanese.
+		%__________________________________________________________________________________________________________________
+		\vspace{-5mm}
+		%\section{\mysidestyle \textcolor{sep}{ Languages}}
+		
+		%\begin{tabular}{@{}ll}
+			%English  &\emph{Professional Proficiency} \\
+			%Hindi    &\emph{Professional Proficiency} \\
+			%Japanese & \emph{Elementary Proficiency} (\emph{Passed JLPT N5 and N4}) \\
+			%Bengali &\emph{Native} 
+		%\end{tabular}
+		
+		%\begin{tabular}{@{}ll}
+		%	English: & \grade{5}  \\
+		%	Hindi:& \grade{4.5}\\
+		%	Japanese: & \grade{2}  \\
+		%	Bengali: & \grade{5}
+		%\end{tabular}
+		
+		
+		
+		%-------------------------------------------------------------------------------------------------
+		%\section{\mysidestyle \textcolor{sep}{Personal\\ Details}}
+		
+		%\begin{tabular}{@{}ll}
+		%\emph{Date of Birth} &
+		%August 24, 1995\\
+		%\vspace{-0.5mm} 
+		%\emph{Gender}&
+		%Male
+		%\end{tabular}
+		
+		
+		%__________________________________________________________________________________________________________________
+		% Referees
+		%\section{\mysidestyle Referees}
+		%
+		%\begin{tabular}{p{4.5cm}p{4.5cm}p{4.5cm}}
+		%\textbf{Dr. Niloy Ganguly}  &  \textbf{Dr. Krishna P. Gummadi}	& \textbf{Dr. Arobinda Gupta}	\\
+		%Associate Professor         &  Faculty                       	& Professor						\\
+		%Computer Science \& Engg. 	&  Max Planck Institute SWS       & Computer Science \& Engg.		\\
+		%IIT Kharagpur, India		&  Saarbruecken, Germany        	& IIT Kharagpur, India			\\
+		%\end{tabular}
+		
+		%__________________________________________________________________________________________________________________
+		% Declaration
+		
+		% \noindent\rule[0.5cm]{\textwidth}{1pt}
+		%I hereby declare that the information given above is correct to the best of my knowledge.
+		
+		%\hspace*{5in}\textit{Chayan Roychoudhury}
+		
+		
+	\end{resume}
+\end{document}
