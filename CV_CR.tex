@@ -29,6 +29,7 @@
 \colorlet{rb}{RoyalBlue}
 \usepackage{tikz}
 \usepackage{fontawesome}
+\usepackage{tabularx}
 
 % Define mahogany color (RGB or named if available)
 \definecolor{mahogany}{RGB}{153,51,0} % adjust tone if needed
@@ -131,24 +132,35 @@
 		
 		%__________________________________________________________________________________________________________________
 		% Education
-		\section{\mysidestyle \textbf{\textcolor{sep}{Education}}}
-		
-		\emph{Doctoral Studies - PhD} \hfill Jan 2021 - Aug 2025\\
-		\textbf{The University of Arizona, Department of Hydrology and Atmospheric Sciences} \\
-		\textit{Supervisor} : Dr. Avelino F. Arellano Jr.
-		
-		\emph{Post-Graduation - MSc} \hfill  Aug 2017 - Jul 2019\\
-		\textbf{University of Calcutta, Department of Atmospheric Science} \\
-		\footnotesize
-		\normalsize
-		Thesis: \emph{Simulation of Hygroscopic Factors on Polar Aerosols over East Antarctica} \\
-		\textit{Supervisor} : Dr. Sanat Kumar Das, Bose Institute
-		
-		\emph{Graduation - BSc}\\
-		\textbf{University of Calcutta, Department of Physics}	\hfill Aug 2014 - Jun 2017\\
-%\textbf{Department of Physics}  \hfill Percentage : 60.625\% \\
-		First Class Honours 
-%		with Minors in Mathematics and Chemistry
+%		\section{\mysidestyle \textbf{\textcolor{sep}{Education}}}
+%		
+%		\emph{Doctoral Studies - PhD} \hfill Jan 2021 - Aug 2025\\
+%		\textbf{The University of Arizona, Department of Hydrology and Atmospheric Sciences} \\
+%		\textit{Supervisor} : Dr. Avelino F. Arellano Jr.
+%		
+%		\emph{Post-Graduation - MSc} \hfill  Aug 2017 - Jul 2019\\
+%		\textbf{University of Calcutta, Department of Atmospheric Science} \\
+%		\footnotesize
+%		\normalsize
+%		Thesis: \emph{Simulation of Hygroscopic Factors on Polar Aerosols over East Antarctica} \\
+%		\textit{Supervisor} : Dr. Sanat Kumar Das, Bose Institute
+%		
+%		\emph{Graduation - BSc}\\
+%		\textbf{University of Calcutta, Department of Physics}	\hfill Aug 2014 - Jun 2017\\
+%%\textbf{Department of Physics}  \hfill Percentage : 60.625\% \\
+%		First Class Honours 
+%%		with Minors in Mathematics and Chemistry
+
+\section{\mysidestyle \textbf{\textcolor{sep}{Education}}}
+\begin{tabularx}{\linewidth}{@{} l >{\raggedright\arraybackslash}X r @{}}
+	\textbf{PhD}, Atmospheric Sciences & \textbf{The University of Arizona} & 2021 -- 2025 \\
+	\multicolumn{2}{@{}l}{\textit{\footnotesize Supervisor: Dr. Avelino F. Arellano Jr.}} \\[1.5ex]
+	
+	\textbf{MSc}, Atmospheric Sciences & \textbf{University of Calcutta} & 2017 -- 2019 \\
+	\multicolumn{2}{@{}l}{\textit{\footnotesize Thesis: Simulation of Hygroscopic Factors on Polar Aerosols over East Antarctica}} \\[1.5ex]
+	
+	\textbf{BSc}, Physics & \textbf{University of Calcutta} & 2014 -- 2017 \\
+\end{tabularx}
 		
 		\vspace*{-3mm}
 		
@@ -187,6 +199,13 @@
 		%Advisor : Dr. Shaun Forth \hfill (Summer 2009)\\
 		%\emph{Efficient Implementation of Reverse-Mode Automatic Differentiation}
 		
+			\section{\mysidestyle \textbf{\textcolor{sep}{Teaching Experience}}}
+		\textit{ATMO 430 - Computational Methods in Atmospheric Sciences} (Spring 2023) \\
+		\textit{ATMO 545 - Introduction to Data Assimilation} (Spring 2024) \\
+		\textit{ATMO 469A/569A - Air Pollution I : Gases} (Fall 2024, Fall 2025) \\
+		\textit{ATMO 469B/569B - Air Pollution II : Aerosols} (Spring 2026) 
+		
+		\vspace{-0.4cm}
 		
 		%__________________________________________________________________________________________________________________
 		% Publications
@@ -218,21 +237,24 @@
 		\textbf{\emph{\textcolor{sep}{Publications}}}
 		\begin{enumerate}[topsep=1pt, partopsep=1pt, itemsep=0.5pt, parsep=0.1pt, leftmargin=15pt,label=\arabic*.]
 			
-			\item \textit{C Roychoudhury}, C He, R Kumar, AF Arellano Jr. 2025.  \textbf{Diagnosing Aerosol-Meteorological Interactions on Snow within the Earth System: A Proof-of-Concept Study over High Mountain Asia}.  \emph{\href{16, 1237–1266, https://doi.org/10.5194/esd-16-1237-2025, 2025.}{Earth System Dynamics}}.
+			\item JH Richter, E Joseph, MC Arcodia, J Berner, JL Demuth, P Falloon, GS Romine, JT Cohen, J Gonzalez-Cruz, M El Gharamti, B Hoppe, S Kumar, A Mariotti, D Mishra, K Pegion, Z Pu, KA Quagraine, KT Quagraine, \textit{C Roychoudhury}, J Ryan, Z Stone, D Das, B Gaubert, S Kapnick, C Zarzycki. 2026. \textbf{Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective}. \emph{\href{https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-24-0155.1/BAMS-D-24-0155.1.xml}{Bulletin of the American Meteorological Society}}. 
+			
+			JM McKinnon,\textit{ C Roychoudhury}, and AF Arellano Jr: \textbf{Spatio-temporal pattern analysis of MOPITT total column CO using varimax rotation and singular spectrum analysis}.  \textit{\href{https://doi.org/10.5194/egusphere-2024-3440, 2025}{Atmospheric Measurement Techniques}}. \textit{(Accepted)}
+			
+			\item \textit{C Roychoudhury}, C He, R Kumar, AF Arellano Jr. 2025.  \textbf{Diagnosing Aerosol-Meteorological Interactions on Snow within the Earth System: A Proof-of-Concept Study over High Mountain Asia}.  \emph{\href{16, 1237-1266, https://doi.org/10.5194/esd-16-1237-2025, 2025.}{Earth System Dynamics}}.
 			
 			\item \textit{C Roychoudhury}, C He, R Kumar, JM McKinnon, and AF Arellano. \textbf{On the relevance of aerosols to snow cover variability over High Mountain Asia.} 2022.  \href{https://doi.org/10.1029/2022GL099317}{\textit{Geophysical Research Letters, 49}}.
 			
-			\item R Kumar, C He, \textit{C Roychoudhury}, W Cheng, N Mizukami, and AF Arellano. 
-			 \textbf{High Mountain Asia 12 km Modeled Estimates of Aerosol Transport, Chemistry, and Deposition Reanalysis, 2003-2019. (HMA2\_MATCHA, Version 1)}. 2024. \textit{[Data Set]}. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. \url{https://doi.org/10.5067/CG4OT8DJX2Z7}.
+			\item R Kumar, C He, \textit{C Roychoudhury}, W Cheng, N Mizukami, and AF Arellano. \textbf{High Mountain Asia 12 km Modeled Estimates of Aerosol Transport, Chemistry, and Deposition Reanalysis, 2003-2019. (HMA2\_MATCHA, Version 1)}. 2024. \textit{[Data Set]}. Boulder, Colorado USA. \href{https://doi.org/10.5067/CG4OT8DJX2Z7}{NASA National Snow and Ice Data Center Distributed Active Archive Center}.
 			
-			\item K Mottungan, \textit{C Roychoudhury}, V Brocchi, B Gaubert, W Tang, MA Mirrezaei, JM McKinnon, Y Guo, DWT Griffith, DG Feist, I Morino, MK Sha, MK Dubey, M De Mazière, NM Deutscher, PO Wennberg, R Sussmann, R Kivi, TY Goo, VA Velazco, W Wang, and AF Arellano Jr. \textbf{Local and regional enhancements of CH4, CO, and CO2 inferred from TCCON column measurements}. 2024.  \href{https://doi.org/10.5194/amt-17-5861-2024}{\textit{Atmospheric Measurement Techniques, 17}}, 5861–5885.
+			\item K Mottungan, \textit{C Roychoudhury}, V Brocchi, B Gaubert, W Tang, MA Mirrezaei, JM McKinnon, Y Guo, DWT Griffith, DG Feist, I Morino, MK Sha, MK Dubey, M De Maziere, NM Deutscher, PO Wennberg, R Sussmann, R Kivi, TY Goo, VA Velazco, W Wang, and AF Arellano Jr. \textbf{Local and regional enhancements of CH4, CO, and CO2 inferred from TCCON column measurements}. 2024.  \href{https://doi.org/10.5194/amt-17-5861-2024}{\textit{Atmospheric Measurement Techniques, 17}}, 5861–5885.
 			
 			\item M Greenslade, Y Guo, G Betito, MA Mirrezaei, \textit{C Roychoudhury}, AF Arellano, A Sorooshian. \textbf{On ozone's weekly cycle for different seasons in Arizona.} 2024. \href{https://doi.org/10.1016/j.atmosenv.2024.120703}{\textit{Atmospheric Environment}}.
 			
 			\item MA Mirrezaei, AF Arellano, Y Guo, \textit{C Roychoudhury}, A Sorooshian. \textbf{Ozone Production over Arid Regions: Insights into Meteorological and
 				Chemical Drivers}. 2024.  \href{https://10.1088/2515-7620/ad484c}{\textit{Environmental Research Communications}}, 6, 051009.
 			
-				\item Y Guo, \textit{C Roychoudhury}, MA Mirrezaei, R Kumar, A Sorooshian, and AF Arellano: \textbf{Investigating Ground-Level Ozone Pollution in Semi-Arid and Arid Regions of Arizona Using WRF-Chem v4.4 Modeling}. 2024.
+			\item Y Guo, \textit{C Roychoudhury}, MA Mirrezaei, R Kumar, A Sorooshian, and AF Arellano: \textbf{Investigating Ground-Level Ozone Pollution in Semi-Arid and Arid Regions of Arizona Using WRF-Chem v4.4 Modeling}. 2024.
 			\href{ https://doi.org/10.5194/gmd-17-4331-2024}{\textit{Geoscientific Model Development}},  17, 4331–4353.
 			
 			\item A Sorooshian, AF Arellano Jr, M Fraser, P Herckes, G Betito, E Betterton, R Braun, Y Guo, MA Mirrezaei, \textit{C Roychoudhury}. \textbf{Ozone in the Desert Southwest of the United States: A Synthesis of Past Work and Steps Ahead.} 2024.  \href{https://doi.org/10.1021/acsestair.3c00033}{\textit{ACS ES\&T Air, 1(2), 62-79}}.
@@ -246,19 +268,12 @@
 			\begin{enumerate}[topsep=1pt, partopsep=1pt, itemsep=0.5pt, parsep=0.1pt, leftmargin=15pt,label=\arabic*.]
 				
 			\item N Mizukami, S Minallah, C He, \textit{C Roychoudhury}, W Cheng, R Kumar. \textbf{Hydrologic implications of aerosol deposition on snow in High
-			Mountain Asia river basins}. \href{https://egusphere.copernicus.org/preprints/2025/egusphere-2025-4586/}{Hydrology and Earth System Sciences}. (\textit{In review}).
+			Mountain Asia river basins}. \textit{\href{https://egusphere.copernicus.org/preprints/2025/egusphere-2025-4586/}{Hydrology and Earth System Sciences}}. (\textit{In review}).
 				
-			\item JM McKinnon, \textit{C Roychoudhury}, MA Mirrezaei, B Gaubert, AF Arellano.  \textbf{Use of Power Spectral Analysis and Dominant Time Scales to
-			Investigate Seasonal and Long-Term Variability of Atmospheric
-			Composition.} (\textit{In preparation}).
-				
-			\item JM McKinnon, \textit{C Roychoudhury}, AF Arellano. \textbf{Spatio-temporal pattern analysis of MOPITT total column CO using varimax rotation and singular spectrum analysis.} \href{https://egusphere.copernicus.org/preprints/2025/egusphere-2024-3440}{Atmospheric Measurement Techniques}. (\textit{In review}).
-			
-			\item J Richter, E Joseph, M Arcodia, J Berner, J Demuth, P Falloon, G Romine, J Cohen, J Gonzalez-Cruz, M El Gharamti, B Hoppe, S Kumar, A Mariotti, D Mishra, K Pegion, Z Pu, K A Quagraine, K T Quagraine, \textit{C Roychoudhury}, J Ryan, Z Stone, D Das, B Gaubert, S Kapnick, C Zarzycki.
-			 \textbf{Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective}. Bulletin of the American Meteorological Society. \textit{(In review)}.
+			\item JM McKinnon, \textit{C Roychoudhury}, MA Mirrezaei, B Gaubert, AF Arellano.  \textbf{Dominant Time Scales of CO Variability from Satellites and Models Using Power Spectral Analysis}. \textit{\href{https://essopenarchive.org/users/1001156/articles/1361660-dominant-time-scales-of-co-variability-from-satellites-and-models-using-power-spectral-analysis}{JGR Atmospheres}}. (\textit{In review}).
 			
 				
-			\item \textit{C Roychoudhury}, W Cheng, N Mizukami, C He, AF Arellano and R Kumar. \textbf{MATCHA, Model for Atmospheric Transport and Chemistry in Asia, a novel regional climate-chemical reanalysis. Part 1: System description and initial evaluation}. \href{https://essd.copernicus.org/preprints/essd-2025-275/}{Earth System Science Data}. (\textit{In review}).
+			\item \textit{C Roychoudhury}, W Cheng, N Mizukami, C He, AF Arellano and R Kumar. \textbf{MATCHA, Model for Atmospheric Transport and Chemistry in Asia, a novel regional climate-chemical reanalysis. Part 1: System description and initial evaluation}. \textit{\href{https://essd.copernicus.org/preprints/essd-2025-275/}{Earth System Science Data}}. (\textit{In review}).
 			
 			\item \textit{C Roychoudhury}, C He, R Kumar, and AF Arellano. \textbf{Revisiting Black Carbon Emission Estimates in the Third Pole: A Hierarchical Bayesian Synthesis Inversion Perspective.} Environmental Research Communications. \textit{(In review)}. 
 			
@@ -276,6 +291,14 @@
 	
 	\textbf{\emph{\textcolor{sep}{Conference Presentations}}}
 		\begin{enumerate}[topsep=1pt, partopsep=1pt, itemsep=0.5pt, parsep=0.1pt, leftmargin=15pt,label=\arabic*.]
+			
+			\item \textit{C. Roychoudhury}, MA Mirrezaei, K Pan, Y Guo, A Sorooshian, E Robinson, MP Fraser, P Herckes, and AF Arellano Jr. \textbf{Towards Constraining VOC Emissions over Phoenix during the 2025 GLOR Campaign with Ensemble Models}. AMS 2026, Houston, TX.
+			
+			\item ARW Arellano and \textit{C. Roychoudhury}. \textbf{Investigating Air Quality in Tucson Using Decades of Surface Observations}. AMS 2026, Houston, TX.
+			
+			\item M Robertson, \textit{C Roychoudhury}, MA Mirrezaei, A Sorooshian, and AF Arellano Jr. \textbf{Diurnal and Seasonal Variability of Ozone Precursors Across Arizona's Sun Corridor}. AMS 2026, Houston, TX.
+			
+			\item K Pan,\textit{ C Roychoudhury}, BG Beran, F Chouza, T Leblanc, MP Fraser, P Herckes, A Sorooshian, and AF Arellano Jr. \textbf{A Stratospheric Intrusion Event Contributing to Elevated Surface Ozone Over the Phoenix Metropolitan Region in June 2025}. AMS 2026, Houston, TX.
 			
 			\item \textit{C Roychoudhury}, AF Arellano. \textbf{Diagnosing Interactions at the Earth System Interface: Case Studies from Snowmelt and Chemical Feedbacks.} Poster NG43A-2301 presented at AGU Fall Meeting 2024, Washington DC. 
 			
@@ -305,7 +328,7 @@
 			
 			\item \textit{C Roychoudhury}, C He, R Kumar, MK Shrivastava, JM McKinnon , AF Arellano (2022).
 			\textbf{Do aerosols really matter over High Mountain Asia?}.
-			Oral Presentation at University of Arizona's annual El Día Del Agua Y La Atmósfera, Tucson, AZ.
+			Oral Presentation at University of Arizona's annual El Dia Del Agua Y La Atmósfera, Tucson, AZ.
 			
 			\item \textit{C Roychoudhury}, C He, R Kumar, and AF Arellano (2021).
 			\textbf{Investigating the relationship of meteorology and atmospheric composition to snow cover: A comparative study over High-Mountain Asia and Andes}.
@@ -400,12 +423,6 @@
 		%\clearpage
 		\vspace{-0.4cm}
 			
-		\section{\mysidestyle \textbf{\textcolor{sep}{Teaching Experience}}}
-	 \textit{ATMO 430 - Computational Methods in Atmospheric Sciences} (Spring 2023) \\
-	 \textit{ATMO 569 - Air Pollution I : Gases} (Fall 2024, Fall 2025) \\
-	\textit{ATMO 545 - Introduction to Data Assimilation} (Spring 2024) 
-		
-		\vspace{-0.4cm}
 		%__________________________________________________________________________________________________________________
 		% Technical Skills
 		\section{\mysidestyle \textbf{\textcolor{sep}{Technical \\Skills}}}
@@ -442,6 +459,8 @@
 			\item Environmental Monitoring and Assessment (Springer).
 			\item 
 			Journal of Applied Meteorology and Climatology (AMS).
+			\item Nature Communications (Springer).
+			\item Environmental Research Communications (IOP).
 			%\item First Position for the poster on \emph{Impact of %Climate Change on Butterfly Population over a Metropolis of %India} presented at BIOSPECTRUM - 2018 in Environmental %Biotechnology and Bioremediation (2018).\\
 			
 		\end{enumerate} 
