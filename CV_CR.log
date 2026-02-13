@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2026 11:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  13 FEB 2026 11:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,7 +984,7 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@cols=\count303
 \TX@ftn=\toks42
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+Package hyperref Info: Option `colorlinks' set `true' on input line 39.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
@@ -1003,53 +1003,53 @@ LaTeX Warning: Unused global option(s):
     [margin].
 
 No file CV_CR.aux.
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 87.
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 8
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 67.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 6
 7.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 87.
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 8
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 67.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 6
 7.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 87.
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 8
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 67.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 6
 7.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 67.
 LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
-87.
+67.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Trying to load font information for T1+jkp on input line 87
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Trying to load font information for T1+jkp on input line 67
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 )
 \AtBeginShipoutBox=\box109
-Package hyperref Info: Link coloring ON on input line 87.
+Package hyperref Info: Link coloring ON on input line 67.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1063,17 +1063,17 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 87.
-LaTeX Info: Redefining \pageref on input line 87.
-LaTeX Info: Redefining \nameref on input line 87.
-LaTeX Info: Redefining \microtypecontext on input line 87.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
+LaTeX Info: Redefining \microtypecontext on input line 67.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 87.
+LaTeX Info: Redefining \showhyphens on input line 67.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1111,25 +1111,25 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/jkp/b/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 109.
+ut line 89.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 110.
+ut line 90.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
-nput line 113.
+nput line 93.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
-LaTeX Font Info:    Trying to load font information for T1+qag on input line 11
-3.
+LaTeX Font Info:    Trying to load font information for T1+qag on input line 93
+.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tex-gyre/t1qag.fd
 File: t1qag.fd 2009/09/25 v1.2 font definition file for T1/qag
 )
@@ -1146,18 +1146,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
  [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 560.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 560.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 560.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 560.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 560.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 343.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 343.
  ) 
 Here is how much of TeX's memory you used:
- 22327 strings out of 480608
- 395530 string characters out of 5903631
- 662055 words of memory out of 5000000
- 37549 multiletter control sequences out of 15000+600000
- 633090 words of font info for 205 fonts, out of 8000000 for 9000
+ 22315 strings out of 480608
+ 395371 string characters out of 5903631
+ 662061 words of memory out of 5000000
+ 37544 multiletter control sequences out of 15000+600000
+ 634373 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,60p,908b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.en
@@ -1175,10 +1175,10 @@ ive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr/local/texlive
 20/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2020/t
 exmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/tex-gyre/qagr.pfb>
-Output written on CV_CR.pdf (4 pages, 129284 bytes).
+Output written on CV_CR.pdf (4 pages, 129088 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 58 named destinations out of 1000 (max. 500000)
- 31245 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 30221 words of extra memory for PDF output out of 35830 (max. 10000000)
 
