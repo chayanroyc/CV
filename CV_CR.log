@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  19 FEB 2026 07:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  19 FEB 2026 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1155,7 +1155,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 344.
 Here is how much of TeX's memory you used:
  22315 strings out of 480608
  395371 string characters out of 5903631
- 662060 words of memory out of 5000000
+ 662061 words of memory out of 5000000
  37544 multiletter control sequences out of 15000+600000
  634373 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1175,10 +1175,10 @@ ive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr/local/texlive
 20/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2020/t
 exmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/tex-gyre/qagr.pfb>
-Output written on CV_CR.pdf (4 pages, 129068 bytes).
+Output written on CV_CR.pdf (4 pages, 129130 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
+ 169 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  60 named destinations out of 1000 (max. 500000)
  30221 words of extra memory for PDF output out of 35830 (max. 10000000)
 
